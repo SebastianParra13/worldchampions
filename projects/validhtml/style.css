@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css?family=Bungee|Bungee+Inline|Monoton|Passion+One');
 body {
     background: #004851;
 }
@@ -5,5 +6,133 @@ p {
     color: black;
 }
 h1 {
-    color: #8D9093;
+    color: white;
+    text-align: center;
+    font-family: Monoton, sans-serif;
+    font-size: 350%;
+    letter-spacing: .35rem;
+    word-spacing: 1rem;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+header {
+    font-family: "Passion One", sans-serif;
+    font-size: 135%;
+}    
+h2 {
+    color: white;
+    text-align: center;
+    font-family: Bungee, sans-serif;
+    font-size: 200%;
+    margin-bottom: .02rem;
+    letter-spacing: .35rem;
+}
+img {
+    display: block;
+    margin: 1;
+}
+.special {
+    text-align: center;
+}
+.twitter {
+    margin: 1 auto;
+}
+div {
+    background: #8D9093;
+    border-color: #54585A;
+    border-style: solid;
+    border-width: 1rem;
+    display: block;
+    padding: 1%;
+    margin: 0 auto;
+    max-width: 75%;
+    line-height: 1.8;
+    font-family: "Passion One", sans-serif;
+    font-size: 135%;
+}
+nav {
+    background: #54585A;
+    border-style: solid;
+    border-width: .5rem;
+    border-right: .5rem;
+    border-left: .5rem;
+    border-color: black;
+    text-align: left;
+    margin-top: 2%;
+    margin-bottom: 3%;
+    padding: .02%;
+    font-family: Bungee, sans-serif;
+    
+}
+footer {
+    background: #54585A;
+    border-style: solid;
+    border-bottom: .5rem;
+    border-right: .5rem;
+    border-left: .5rem;
+    border-width: 1.5rem;
+    border-color: black;
+    display: block;
+    margin-top: 6%;
+    text-align: center;
+    padding: 1%;
+    font-family: Bungee, sans-serif;
+}
+article {
+    background: #8D9093;
+    border-color: #54585A;
+    border-style: solid;
+    border-width: 1rem;
+    display: block;
+    padding: 1%;
+    margin: 0 auto;
+    max-width: 75%;
+    line-height: 1.8;
+    font-family: "Passion One", sans-serif;
+    font-size: 135%;
+    text-align: left;
+}
+h3 {
+    color: white;
+    font-family: Bungee, sans-serif;
+    font-size: 135%;
+    text-align: left;
+    border-style: solid;
+    border-width: .10rem;
+    border-right: .5rem;
+    border-left: .5rem;
+    border-color: black;
+    margin-top: .1rem;
+    letter-spacing: .2rem;
+}
+h4{
+    font-family: "Passion One", sans-serif;
+    font-size: 120%;
+    color: #004851;
+    margin-top: .5rem;
+    margin-bottom: .5rem;
+}
+h5 {
+    font-family: Bungee, sans-serif;
+    font-size: 125%;
+    color: black;
+    margin-bottom: .5rem;
+    margin-top: .5rem;
+}
+aside {
+    background: #8D9093
+}
+#logo {
+    display: block;
+    margin: 0 auto;
+}
+#icon {
+    display: inline-block;
+    margin-left: 2rem;
+    margin-right: 2rem;
+}
+#navigation p{
+    display: inline-block;
+    margin-left: 3rem;
+    margin-right: 2rem;
 }
